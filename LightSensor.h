@@ -57,7 +57,7 @@ class LightSensor{
 	 *  @code Read_Light(); @endcode
 	 *  Calculates the Rensor using
 	 *  @code CalcRensor(); @endcode
-	 *  end Saved the LUX value. 
+	 *  end Saves the LUX value. 
 	 */
 	void Light_To_Lux(void);
 	
@@ -138,6 +138,12 @@ class LightSensor{
 * Most standard Arduino based boards are supported:
 * - Arduino
 * - Intel Galileo support
+* 
+* * @section Sensor_support Sensor Support
+* 
+* It supports:
+* - The grove Light sensor.
+* - Every Light sensor equiped with the GL5528 LDR sensor.
 */
 
 #endif //LightSensor
