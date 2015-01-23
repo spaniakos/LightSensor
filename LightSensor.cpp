@@ -19,6 +19,15 @@ LightSensor::LightSensor(uint8_t pin,int thres){
 		Rensor = 0;
 		LightThres = thres;
 }
+
+LightSensor::LightSensor(uint8_t pin){
+		pinLight = pin;
+		LUX = 0;
+		sensorValue = 0;
+		Old_LUX = 0;
+		Rensor = 0;
+		LightThres = 1;
+}
 	
 void LightSensor::begin(){
 	pinMode(pinLight, OUTPUT);
