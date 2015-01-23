@@ -128,7 +128,7 @@ class LightSensor{
 *
 * Please refer to:
 *
-* @li <a href="http://spaniakos.github.io/LightSensor/classLightSensor.html"><b>LCD</b> Class Documentation</a>
+* @li <a href="http://spaniakos.github.io/LightSensor/classLightSensor.html"><b>LightSensor</b> Class Documentation</a>
 * @li <a href="https://github.com/spaniakos/LightSensor/archive/master.zip"><b>Download</b></a>
 * @li <a href="https://github.com/spaniakos/LightSensor/"><b>Source Code</b></a>
 * @li <a href="http://spaniakos.github.io/">All spaniakos Documentation Main Page</a>
